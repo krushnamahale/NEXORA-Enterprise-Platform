@@ -1,0 +1,43 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js dependencies and builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Java and Gradle build files
+.gradle/
+**/.gradle/
+build/
+**/build/
+out/
+*.class
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local database files
+data/
+*.mv.db
+*.trace.db
+
+# Maven build output
+target/
+**/target/
+
+# Local configuration backups
+*.backup
